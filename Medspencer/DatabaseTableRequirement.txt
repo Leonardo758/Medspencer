@@ -1,0 +1,106 @@
+Patient:
+	ID
+	PTFIRSTNAME
+	PTLASTNAME (add)
+	PTDOB
+	PTADDRESS
+	PTZIP
+	PTPHONE
+	PTEMAIL
+
+Doctor
+	ID
+	DRFIRSTNAME
+	DRLASTNAME
+	DRGENDER (Remove)
+	DRSPECIALITY (LIST)
+	DRADDRESS
+	DRZIP
+	DRPHONE
+	DRFAX
+	DREMAIL
+	
+Admin
+	ADNAME
+	ADPHONE
+	ADEMAIL
+
+Medication
+	Name
+
+SIG_Selection
+	ID
+	Method
+		Give
+		Take
+		Place
+		Chew and swallow
+		Place underneath tongue
+		Swallow but do not chew
+	Unit
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+		10
+		-
+		12
+		14
+		15
+		24
+		28
+		30
+		36
+		45
+		48
+	Dose Form
+		gram(s)
+		tablet(s)
+		capsule(s)
+	Mode of delivery 
+		by mouth
+	Timing
+		times
+		at 4pm
+		at 12pm
+		evening
+		at dinner time
+		daily
+		one time
+		twice a day
+		three times a day
+		four times a day
+		at bedtime
+		every morning
+		every other day
+		every 4-6 hours
+		every 8 hours
+		every 6-8 hours
+		every 72 hours
+		before meal(s)
+		after meal(s)
+	Qualifier
+		to
+		for
+		sparingly
+		for one week
+		to affected area
+		for upto
+		as needed
+		as directed
+		Days 1 & 2
+		Days 3 & 4
+		Days 5 & 6
+		Days 7 & 8
+		Days 9 & 10
+		Days 11 & 12
+		for cough
+		for asthma
+		for nausea
+
+.
